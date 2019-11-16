@@ -12,8 +12,4 @@ describe 'Botões de Rádio', :radio do
   it 'seleção por find' do
     find('input[value=guardians]').click
   end
-
-  after(:each) do
-    sleep 2
-  end
 end

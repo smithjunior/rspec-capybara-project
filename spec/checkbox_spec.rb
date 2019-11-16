@@ -4,6 +4,7 @@ describe 'Caixa de Seleção', :checkbox do
   before(:each) do
     visit 'https://training-wheels-protocol.herokuapp.com/checkboxes'
   end
+  
   it 'marcando uma opção' do
     check('thor')
   end
@@ -20,7 +21,4 @@ describe 'Caixa de Seleção', :checkbox do
     find('input[value=guardians]').set(false)
   end
 
-  after(:each) do
-    sleep 2
-  end
 end
