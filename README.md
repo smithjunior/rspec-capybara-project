@@ -18,4 +18,4 @@ $ rspec -fd
 $ rspec -fd --tag @dropdown
 ```
 ### All tags
-> tags: @forms, @dropdown, @checkbox
+> tags: @forms, @dropdown, @checkbox, @radio
