@@ -6,7 +6,7 @@
 $ bundle install
 ```
 
-## Running tests
+## Running all tests
 
 ```bash
 $ rspec -fd 
@@ -17,3 +17,5 @@ $ rspec -fd
 ```bash
 $ rspec -fd --tag @dropdown
 ```
+### All tags
+> tags: @forms, @dropdown, @checkbox

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-describe 'Forms' do
+describe 'Forms', :forms do
   it 'login com sucesso' do
     visit 'https://training-wheels-protocol.herokuapp.com/login'
     # Fill fields, fill_in works with name and id propertier on HTML
