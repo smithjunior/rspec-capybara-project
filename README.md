@@ -9,7 +9,7 @@ $ bundle install
 ## Running all tests
 
 ```bash
-$ rspec -fd 
+$ rspec -fd
 ```
 
 ## Running tests by tag
@@ -17,5 +17,7 @@ $ rspec -fd
 ```bash
 $ rspec -fd --tag @dropdown
 ```
+
 ### All tags
-> tags: @forms, @dropdown, @checkbox, @radio, @upload, @dc, @hover, @dd, @select2, @key, @alert
+
+> tags: @forms, @dropdown, @checkbox, @radio, @upload, @dc, @hover, @dd, @select2, @key, @alert, @wnd
