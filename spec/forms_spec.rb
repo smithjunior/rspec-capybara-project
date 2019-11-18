@@ -12,6 +12,7 @@ describe 'Forms', :forms do
     expect(find('#flash').visible?).to be true
 
     expect(find('#flash').text).to include 'Olá, Tony Stark. Você acessou a área logada!'
+
   end
 
   it 'senha incorreta' do
@@ -25,6 +26,7 @@ describe 'Forms', :forms do
     expect(find('#flash').visible?).to be true
 
     expect(find('#flash').text).to include 'Senha é invalida!'
+
   end
 
   it 'usuário não cadastrado' do
@@ -38,5 +40,6 @@ describe 'Forms', :forms do
     expect(find('#flash').visible?).to be true
 
     expect(find('#flash').text).to include 'O usuário informado não está cadastrado!'
+
   end
 end
