@@ -16,6 +16,11 @@ RSpec.configure do |config|
 
   # configured capybara inside rspec
   config.include Capybara::DSL
+  
+  # can use inside before(:each)
+  config.before(:example) do 
+    page.current_window.resize_to(1280, 800)
+  end
 end
 
 # Configured the default driver

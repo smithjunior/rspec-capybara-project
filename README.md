@@ -20,4 +20,4 @@ $ rspec -fd --tag @dropdown
 
 ### All tags
 
-> tags: @forms, @dropdown, @checkbox, @radio, @upload, @dc, @hover, @dd, @select2, @key, @alert, @wnd, @login, @login_and_create, @iframe, @dynamic_ids, @datatables
+> tags: @hello, @forms, @dropdown, @checkbox, @radio, @upload, @dc, @hover, @dd, @select2, @key, @alert, @wnd, @login, @login_and_create, @iframe, @dynamic_ids, @datatables
