@@ -23,7 +23,7 @@ RSpec.configure do |config|
   end
 
   config.after(:example) do |e|
-    nome = e.description.gsub('/[^A-Za-z0-9]/','').tr(' ', '_')
+    nome = e.description.gsub(/[^A-Za-z0-9 ]/, '').tr(' ', '_')
     page.save_screenshot('logs/' + nome + '.png') if e.exception
   end
 

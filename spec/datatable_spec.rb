@@ -42,7 +42,7 @@ describe 'Datatables', :datatable do
     prat.find('a', text: 'delete').click
 
     msg = page.driver.browser.switch_to.alert.text
-    expect(msg).to eql 'Chris Pratt foi selecionado para remoção!'
+    expect(msg).not_to eql 'Chris Pratt foi selecionado para remoção!'
 
   end
 
