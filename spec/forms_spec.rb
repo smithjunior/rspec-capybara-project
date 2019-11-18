@@ -2,7 +2,7 @@
 
 describe 'Forms', :forms do
   it 'login com sucesso' do
-    visit 'https://training-wheels-protocol.herokuapp.com/login'
+    visit '/login'
     # Fill fields, fill_in works with name and id propertier on HTML
     fill_in 'userId', with: 'stark'
     fill_in 'password', with: 'jarvis!'
@@ -15,7 +15,7 @@ describe 'Forms', :forms do
   end
 
   it 'senha incorreta' do
-    visit 'https://training-wheels-protocol.herokuapp.com/login'
+    visit '/login'
     # Fill fields, fill_in works with name and id propertier on HTML
     fill_in 'userId', with: 'stark'
     fill_in 'password', with: 'jarvis#'
@@ -28,7 +28,7 @@ describe 'Forms', :forms do
   end
 
   it 'usuário não cadastrado' do
-    visit 'https://training-wheels-protocol.herokuapp.com/login'
+    visit '/login'
     # Fill fields, fill_in works with name and id propertier on HTML
     fill_in 'userId', with: 'smith'
     fill_in 'password', with: 'test!'

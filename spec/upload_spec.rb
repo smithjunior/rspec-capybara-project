@@ -5,7 +5,7 @@ describe 'Upload', :upload do
     @arquivo = Dir.pwd + '/spec/fixtures/arquivo.txt'
     @imagem = Dir.pwd + '/spec/fixtures/imagem.png'
 
-    visit 'https://training-wheels-protocol.herokuapp.com/upload'
+    visit '/upload'
   end
 
   it 'upload com arquivo texto' do
